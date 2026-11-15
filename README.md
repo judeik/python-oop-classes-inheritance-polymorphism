@@ -1,82 +1,15 @@
-# Python OOP Assignment 🚀
+# Python classes and polymorphism
 
-## 📌 Description
+Smartphone constructors, name-mangled attributes, inheritance and polymorphic Vehicle subclasses.
 
-This project demonstrates **Object-Oriented Programming (OOP) in Python** with clear examples.  
-It covers the **four core OOP concepts**:
+This is a 2026 recovery revision based on https://github.com/judeik/python-oop-classes-inheritance-polymorphism at `11a94a796cae4f24cc3d33ceb2711e8b6e40884c`. It is not the original submitted snapshot. Original code, history and remote remain unchanged. The original submission history is retained; this later revision has its own commit.
 
-- **Classes & Objects** (real-world representation)
-- **Constructors** (initializing attributes)
-- **Encapsulation** (private attributes with getters)
-- **Inheritance** (extending parent classes)
-- **Polymorphism** (method overriding with different behaviors)
+## Local revision
 
-The code is designed to be **beginner-friendly** with SEO-optimized comments for easy learning.
+Methods return simulation strings, battery capacity uses a positive integer, and personal/example phone values have been removed from the new demonstration.
 
----
+Run with Python 3: `python python-oop-classes-inheritance-polymorphism.py`. Only the standard library is used. Focused tests are under recovery/phase2, with no CI or real services. New interfaces/validation are recovery improvements, not claims about the original submission. See CHANGE_REVIEW.json for source provenance and proposed changes.
 
-## 🏗️ Assignment Breakdown
+## Publication boundary
 
-### **Assignment 1: Custom Class (Smartphone Example)**
-
-- Class: `Smartphone`
-  - Attributes: `brand`, `model`, `battery_capacity`
-  - Methods: `make_call()`, `browse_internet()`, `get_battery_capacity()`
-- Inheritance:
-  - `GamingSmartphone` extends `Smartphone` with an extra method: `play_game()`
-
-✅ Demonstrates: Constructors, Encapsulation, and Inheritance.
-
----
-
-### **Assignment 2: Polymorphism Challenge (Vehicles Example)**
-
-- Base Class: `Vehicle`
-- Subclasses:
-  - `Car` → `move()` prints **Driving 🚗**
-  - `Plane` → `move()` prints **Flying ✈️**
-  - `Boat` → `move()` prints **Sailing 🚤**
-
-✅ Demonstrates: Polymorphism with the same method name (`move()`) but different outputs.
-
----
-
-## 🖥️ Example Run
-
-```bash
-# Running the program
-python main.py
-```
-
----
-
-## Output Example
-
-```bash
-Samsung Galaxy S24 is calling +2348061599859...
-Samsung Galaxy S24 is browsing the internet.
-Battery Capacity: 5000mAh
-Asus ROG Phone 7 is playing PUBG Mobile with Liquid Cooling cooling system.
-Battery Capacity: 6000mAh
-
---- Polymorphism Example ---
-Driving 🚗
-Flying ✈️
-Sailing 🚤
-```
-
----
-
-## 👨‍💻 Author
-
-**Ojobor Jude Ikechukwu**  
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/ojobor-jude-ik-292b9612b/)  
-- 🌐 [Portfolio Website](https://judeik.github.io/Judeik-portfolio/)  
-- 📱 WhatsApp: [08061599859](https://wa.me/2348061599859)  
-
----
-
-## 🏷️ Keywords (SEO)
-
-Python OOP, Python Classes, Inheritance, Polymorphism, Encapsulation, Constructors, Python Assignment, Beginner Python Projects
+Preserve original authorship/notices in any later approved update. No new blanket license is assigned, no credential/contact record is included, and no original Git history is rewritten. Updating this existing personal repository needs separate approval; do not create a duplicate repository.
